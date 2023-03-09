@@ -1,0 +1,40 @@
+.text{
+    padding-top: 10px;
+    color: blue;
+    font-display: 'Roboto';
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.text2{
+    font-size: 18px;
+    color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.group{
+    padding-left: 40px;
+    font-size: 18px;
+    color: rgb(153, 27, 27);
+    font-weight: bold;
+}
+
+#fundo{
+    background-color: rgb(240, 228, 213);
+}
+
+.image_with_animation{
+    transform: rotate(infinite);
+    position: relative;
+    animation: girando 3s linear infinite;
+}
+
+@keyframes girando{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
