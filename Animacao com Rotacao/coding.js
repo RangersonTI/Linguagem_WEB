@@ -1,5 +1,6 @@
-const node = document.querySelector('.image_with_animation')
-node.addEventListener('click', function()
-{
-    this.classList.add('hello-active')
-});
+
+const ler = document.querySelector("#image")
+ler.classList.add("image_with_animation")
+ler.style.transform = "rotate(infinite)"
+ler.style.position = "relative"
+ler.style.animation = "loading 3s linear infinite"

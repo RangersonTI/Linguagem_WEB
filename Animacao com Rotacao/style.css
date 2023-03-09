@@ -24,10 +24,10 @@
     background-color: rgb(240, 228, 213);
 }
 
-.image_with_animation{
+/*.image_with_animation{
     transform: rotate(infinite);
     position: relative;
-    animation: girando 3s linear infinite;
+    animation: loading 3s linear infinite;
 }
 
 @keyframes girando{
@@ -37,4 +37,4 @@
     to{
         transform: rotate(360deg);
     }
-}
+}*/
