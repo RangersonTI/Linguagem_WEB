@@ -7,15 +7,15 @@
     <title>A Hipnose</title>
     <link rel="stylesheet" href="style.css">
     <script src="coding.js"></script>
-    <script src="jquery-3.6.4.min.js" > </script>
+    
     
 </head>
 <body id="fundo">
     <center><div class="text">HIPNOSE</div> </center>
     <br> Data: 08/03/2023, 09:25   
-</body>
+
 <section>
-    <center><div id="image_with_animation" ><img src="espiral-caracol.png" height="465px" width="460px"></div></center>
+    <center><div class="image_with_animation" ><img src="espiral-caracol.png" height="465px" width="460px"></div></center>
     <br>
     <div class="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum praesentium necessitatibus ullam itaque eveniet assumenda 
         placeat qui accusantium. Tenetur voluptatum voluptatem eum quae nobis quibusdam, velit facere! Ex, voluptatem veniam. Lorem ipsum dolor 
@@ -33,4 +33,19 @@
     <tr><img src="SLR.png" width="180" height="250" style="padding-left: 40px;"><p class="group">Feito pelo grupo SLR</p></tr>
     
 </footer>
+<script>
+
+const elementoComAnimacao = document.querySelector('.image_with_animation');
+
+elementoComAnimacao.addEventListener('click', function() {
+  if (this.classList.contains('image_with_animation')) {
+    this.classList.remove('image_with_animation');
+  } else {
+    this.classList.add('image_with_animation');
+  }
+});
+
+
+</script>
+</body>
 </html>
