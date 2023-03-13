@@ -5,6 +5,6 @@
      <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png" height="115" width="115">  
      <img src="https://play-lh.googleusercontent.com/I1foi2Irrv7tW9ee9kgP0wfnMzaVb6y17muvpKsFcUrKYsDlmCyWuTRh5m93KJZ24dY" height="115" width="115">
      <img src="https://i.pinimg.com/736x/04/a5/16/04a51688942090f8e4d444bd32688387--linux-jessie.jpg" height="115" width="125">  
-     <img src="https://www.weston-tech.com/wp-content/uploads/2016/08/images_windows-7-logo@2x.png" height="115" width="115">
+     // <img src="https://www.weston-tech.com/wp-content/uploads/2016/08/images_windows-7-logo@2x.png" height="115" width="115">
      
      
