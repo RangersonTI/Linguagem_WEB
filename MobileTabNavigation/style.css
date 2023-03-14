@@ -1,13 +1,18 @@
 #font-text{
     font-size: 20px;
-    font-weight: bolder;
-    font-family: Verdana;
     display: flex;
     align-items: center;
 }
 
 .t{
     width: 25%;
+    background-color: rgb(113, 243, 101);
+    border: none;
+    width: 100%;
+    padding-top: 0%;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Verdana;
 }
 
 #font-text a{
@@ -18,25 +23,22 @@
     font-size: 20px;
     font-weight: bolder;
     font-family: Arial;
-    background-color: rgb(77, 92, 204);
-    height: calc(100vh - 70px);
-    align-items: center;
+    background-color: rgb(63, 78, 189);
+    height: auto;
+    width: auto;
+    align-items: left;
     justify-content: center;
 }
 
 .tableMod{
-    position: absolute;
+    position: static;
     bottom: 0;
-    height: 58px;
     width: 100%;
-    background-color: rgb(151, 216, 59);
-    display: flex;
 }
 
 .mobile{
     display: flex;
     padding: 0;
-    margin: 0;
     position: absolute;
     bottom: 0;
     align-items: center;
