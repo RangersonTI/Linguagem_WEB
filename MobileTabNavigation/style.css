@@ -1,0 +1,63 @@
+#font-text{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Verdana;
+    display: flex;
+    align-items: center;
+}
+
+.t{
+    width: 25%;
+}
+
+#font-text a{
+    text-decoration: dashed;
+}
+
+.nav{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Arial;
+    background-color: rgb(77, 92, 204);
+    height: calc(100vh - 70px);
+    align-items: center;
+    justify-content: center;
+}
+
+.tableMod{
+    position: absolute;
+    bottom: 0;
+    height: 58px;
+    width: 100%;
+    background-color: rgb(151, 216, 59);
+    display: flex;
+}
+
+.mobile{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    width: 100%;
+}
+
+.mobile a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(51, 42, 173);
+}
+
+.mobile a:hover{
+    background-color: rgb(169, 17, 73);
+    color: rgb(255, 255, 255);
+}
+
+.mobile a i{
+    font-size: 20px;
+    margin: 10 px
+}
+
