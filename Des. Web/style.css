@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    background: #dbffda;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.circulo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #004b06;
+    clip-path: circle(50% at bottom right);
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    padding: 40px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #004b06;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+header.logo{
+    position: relative;
+    max-width: 100px;
+}
+
+.navegacao ul{
+    position: relative;
+    display: flex;
+    margin-right: 400px;
+}
+
+.navegacao li{
+    list-style: none;
+    
+}
+
+.navegacao li a{
+    color: #004b06;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 19px;
+    margin-left: 100px;        
+}
+
+.navegacao li a:hover{
+    background-color: rgb(165, 255, 161);
+    transition: 0.3s ease-in-out;
+    padding: 2px 15px;
+    border-radius: 7px;
+    color: black;
+
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .texto{
+    position: relative;
+    max-width: 600px;
+    margin-right: 20px;  
+    margin-top: 50px; 
+}
+
+.container .texto h2{
+    color: #000000;
+    font-size: 40px;
+    margin-bottom: 10px;
+    line-height: 2.5em;
+    font-weight: 700; 
+}
+
+.container .texto h2 span{
+    font-size: 4.51em;
+    color: #004b06;
+}
+
+.container .texto p{
+    color: black;
+} 
+
+.container .texto a{
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 25px;
+    background: #004b06;
+    color: #fffefe;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+}
+
+.container .texto a:hover{
+    transform: translateY(-10px);
+}
+
+.icons{
+    position: absolute;
+    bottom: 24px;
+    left: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons li{
+    list-style: none;
+}
+
+.icons li a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #000000;
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+
+.icons li a:hover{
+    background-color: #08b516;
+    transform: translateY(-10px);
+}
+
+.icons li a img{
+    transform: scale(0.5);
+}
+
+.vetor{
+    position: absolute;
+    right: 0;
+    bottom: -80px;   
+    right: -80px;
+}
+
+.vetor img{
+    width: 600px;
+}
+
+
+
+/*O QUE VAMOS APRENDER*/
+
+.oquevamosaprender{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 100px;
+    background: #dbffda;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.container2{
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content:end;
+}
+
+.container2 .texto{
+    position: relative;
+    max-width: 1200px;
+    margin-right: 0px;  
+    margin-top: 0px; 
+}
+
+.container2 .texto h2{
+    margin-bottom: -40px;
+    line-height: 2.5em;
+    font-weight: 700;
+    font-size: 4.51em;
+    color: #004b06;
+    
+}
+
+.container2 .texto p{
+    color: black;
+    margin-top: 0px;
+    margin-left: 0px;
+} 
+
+
+.container2 .texto .htmlpng{
+    height: 80px;
+    width: 80px;
+    margin-bottom: -132px;
+    margin-left: 198px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container3{
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content:end;
+}
+
+.container3 .texto{
+    position: relative;
+    max-width: 1200px;
+    margin-right: 0px;  
+    margin-top: 0px; 
+}
+
+.container3 .texto h2{
+    margin-bottom: -40px;
+    line-height: 2.5em;
+    font-weight: 700;
+    font-size: 4.51em;
+    color: #004b06;
+    
+}
+
+.container3 .texto p{
+    color: black;
+    margin-top: 0px;
+    margin-left: 0px;
+} 
+
+
+.container3 .texto .csspng{
+    height: 80px;
+    width: 80px;
+    margin-bottom: -132px;
+    margin-left: 131px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container4{
+    position: relative;
+    width: 100%;
+    align-items: center;
+    justify-content:end;
+}
+
+.container4 .texto{
+    position: relative;
+    max-width: 1200px;
+    margin-right: 0px;  
+    margin-top: 0px; 
+}
+
+.container4 .texto h2{
+    margin-bottom: -40px;
+    line-height: 2.5em;
+    font-weight: 700;
+    font-size: 4.51em;
+    color: #004b06;
+    
+}
+
+.container4 .texto p{
+    color: black;
+    margin-top: 0px;
+    margin-left: 0px;
+} 
+
+
+.container4 .texto .jspng{
+    height: 80px;
+    width: 80px;
+    margin-bottom: -132px;
+    margin-left: 360px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*DOCENTE*/
+
+.containerperfil {
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 690px;
+    background-color:#004b06;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.8) 0px 7px 29px 0px;
+}
+
+.profile-img {
+    width: 120px;
+    border-radius: 50%;
+    border: #63d075 5px solid;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: translateY(-65px);
+}
+
+.container-text {
+    margin-top: -40px;
+}
+
+h1.name {
+    margin: 0;
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: white;
+}
+
+h3.desc {
+    font-weight: 1;
+  
+    color: white;
+}
+
+.address-icon {
+    width: 24px;
+    filter: brightness(15);
+    margin-bottom: -6px;
+}
+
+.socials {
+    margin: 30px 0;
+}
+
+.socials a {
+    margin-right: 40px;
+}
+
+.socials a:last-child {
+    margin-right: 0;
+}
+
+.socials img {
+    width: 48px;
+    transition: all .3s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 50%;
+}
+
+.socials img:hover {
+    transform: scale(110%);
+}
+
+.socials img:active {
+    transform: scale(103%);
+}
