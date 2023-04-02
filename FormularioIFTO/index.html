@@ -11,7 +11,7 @@
 <body class="fundo">
     <header class="cabecalho">
         <div>
-            <img src="imagens/logo ifto.png" width="90px" alt="50">
+            <img src="imagens/logo if.png" width="90px" alt="50">
             INSTITUTO FEDERAL DO TOCANTINS
         </div>
     </header>
@@ -26,18 +26,18 @@
     <div id="divJunta">
         <form action="recrutamento" class="layout"><center> Informações pessoais </center><br>
             <div id="textLayout">
-                <label for="name">Nome Completo:</label> <input type="text" id="name" name="name" width="400px"><br>
+                <label for="name">Nome Completo:</label> <input type="text" id="name" name="name" width="400px"><br><br>
                 <label for="data">Data de Nascimento:</label> <input type="datetime-local" id="data" name="data"><br>
                 <br><label for="genero">Gênero:</label><br>
                     <input type="radio" id="genero" name="genero" value="Masculino">Masculino<br>
                     <input type="radio" id="genero" name="genero" value="Feminino">Feminino<br>
                     <input type="radio" id="genero" name="genero" value="Nãoquerodeclarar">Não quero declarar<br>
-                <br><label for="nacionalidade">Nacionalidade:</label> <input type="text" id="nacionalidade" name="nacionalidade"><br>
-                <label for="ender">Endereço:</label> <input type="text" id="ender" name="ender"><br>
-                <label for="city">Cidade:</label> <input type="text" id="city" name="city"><br>
-                <label for="estado">Estado:</label> <input type="text" id="estado" name="estado"><br>
-                <label for="cep">CEP:</label> <input type="text" id="cep" name="cep"><br>
-                <label for="phone">Telefone:</label> <input type="text" id="phone" name="phone"><br>
+                <br><label for="nacionalidade">Nacionalidade:</label> <input type="text" id="nacionalidade" name="nacionalidade"><br><br>
+                <label for="ender">Endereço:</label> <input type="text" id="ender" name="ender"><br><br>
+                <label for="city">Cidade:</label> <input type="text" id="city" name="city"><br><br>
+                <label for="estado">Estado:</label> <input type="text" id="estado" name="estado"><br><br>
+                <label for="cep">CEP:</label> <input type="text" id="cep" name="cep"><br><br>
+                <label for="phone">Telefone:</label> <input type="text" id="phone" name="phone"><br><br>
             </div>
         </form>
         <br>
@@ -49,10 +49,34 @@
                 <input type="radio" id="formAcad" name="formAcad">Tecnico em Informática<br>
                 <input type="radio" id="formAcad" name="formAcad">Técnologo em Análise e Desenvolvimento de Sistemas<br>
                 <br><label for="formacatecnica">Além da formação técnicas profissional ofertada no IFTO, já possui algum outro tipo de curso ? Se sim, qual ?</label>
-                <textarea name="outraFormacao" id="outraFormacao" cols="53" rows="5"></textarea>
+                <textarea name="outraFormacao" id="outraFormacao" cols="53" rows="4"></textarea>
             </div>        
         </form>
         <br>
+        <form action="experiencias" class="layout1"><center> Experiências profissionais </center>
+            <div id="textLayout">
+                <br><input type="radio" id="naotem" name="naotem">Não possui<br><br>
+                    <div id="possuiExperiencia">
+                        <label for="">Última ou Atual tarefa:</label><br>
+                        <input type="text" name="tarefa" id="tarefa"><br><br>
+                        <label for="cargo">Cargo:</label><br>
+                        <input type="text" id="cargo" name="cargo"><br><br>
+                        <label for="periodo"><u>Período de Atuação</u></label><br>
+                        <label for="#">De:</label>
+                        <input type="date" name="inicio" id="inicio">
+                        <label for="#">Até:</label>
+                        <input type="date" name="fim" id="fim"><br><br>
+                        <label for="atividades">Principais Atividades e Responsabilidades:</label><br>
+                        <textarea name="atividades" id="atividades" cols="30" rows="3"></textarea>
+                    </div>
+            </div>
+        </form>
+
+        
+      
+    </div>
+    <div id="divJunta">
+        
         <form action="experienciaPRO" class="layout2"><center>Experiências adicionais</center>
             <div id="textLayout"><br>
                 <label for="experient">Se você possui mais experiências profissionais, liste-as abaixo(opcional)</label><br><br>
@@ -98,40 +122,16 @@
                 <span><input type="text" name="responsabilidade4" id="responsabilidade"></span>
             </div>
         </form>
-        
-      
-    </div>
-    <div id="divJunta1">
-        <form action="experiencias" class="layout1"><center> Experiências profissionais </center>
-            <div id="textLayout">
-                    <input type="radio" id="naotem" name="naotem">Não possui<br>
-                    <div id="possuiExperiencia">
-                        <label for="">Última ou Atual tarefa:</label><br>
-                        <input type="text" name="tarefa" id="tarefa"><br>
-                        <label for="cargo">Cargo:</label><br>
-                        <input type="text" id="cargo" name="cargo"><br>
-                        <label for="periodo">Período de Atuação</label><br>
-                        <label for="#">De:</label>
-                        <input type="date" name="inicio" id="inicio">
-                        <label for="#">Até:</label>
-                        <input type="date" name="fim" id="fim"><br>
-                        <label for="atividades">Principais Atividades e Responsabilidades:</label><br>
-                        <textarea name="atividades" id="atividades" cols="30" rows="5"></textarea>
-                    </div>
-            </div>
-        </form>
-        
     </div>
     
-    Experiências Adicionais (Empresa, Cargo, Período, Atividades e Responsabilidades):**
-
+    
     **Habilidades Técnicas e Idiomas**
 
     **Informe quais Habilidades Técnicas Relevantes (softwares, ferramentas, certificações):**
     Possui habilidades com idiomas ? Qual Língua:
 Nível de Proficiência (Básico, Intermediário, Avançado, Fluente)
    
-    <div class="alinhaBotao">
+    <div id="alinhaBotao">
         <input type="button" id="salvarDados" value="Salvar dados">
     </div>
     

@@ -42,7 +42,7 @@
     background-color: rgba(111, 165, 102, 0.918);
     font-size: 25px;
     font-family: 'Roboto',sans-serif;;
-    width: 900px;
+    width: 880px;
 }
 #textLayout{
     font-size: 15px;
@@ -53,21 +53,25 @@
     align-items: center;
 }
 #divJunta{
-    display: inline-block;
+    display: inline-table;
+    padding-left: 0.3%;
+}
+#divJunta1{
+    display: inline-table;
     padding-left: 0.3%;
 }
 .ladoalado{
     display: inline-block;
     width: 24.95%;
 }
-#divJunta1{
-    display: inline-block;
-    padding-left: 0.3%;
-}
 
+#alinhaBotao{
+    width: 99%;
+    text-align:right;
+}
 #salvarDados{
     width: 130px;
-    height: 30px;
+    height: 35px;
     font-size: 15px;
     font-weight: bolder;
     border-color: rgb(32, 66, 31) rgb(68, 140, 66) rgb(9, 255, 0);
@@ -103,19 +107,19 @@
     width: 400px;
 }
 #empresa{
-    width: 200px;
+    width: 180px;
 }
 #cargo{
-    width: 200px;
+    width: 180px;
 }
 #periodo{
     width: 50px;
 }
 #atividade{
-    width: 200px;
+    width: 180px;
 }
 #responsabilidade{
-    width: 200px;
+    width: 180px;
 }
 /*----------------------------------------------*/
 /*----------------------------------------------*/
