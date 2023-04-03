@@ -25,7 +25,7 @@
     background-color: rgba(111, 165, 102, 0.918);
     font-size: 25px;
     font-family: 'Roboto', sans-serif;;
-    width: 250px;
+    width: 300px;
     margin: 0;
 }
 .layout1{
@@ -34,7 +34,7 @@
     background-color: rgba(111, 165, 102, 0.918);
     font-size: 25px;
     font-family: 'Roboto',sans-serif;;
-    width: 400px;
+    width: 420px;
 }
 .layout2{
     padding: 15px;
@@ -42,7 +42,7 @@
     background-color: rgba(111, 165, 102, 0.918);
     font-size: 25px;
     font-family: 'Roboto',sans-serif;;
-    width: 880px;
+    width: 990px;
 }
 #textLayout{
     font-size: 15px;
@@ -81,45 +81,66 @@
 /* Dimencionamento das caixas de entrada de dados */
 #name{
     width: 250px;
+    height: 20px;
 }
 #ender{
     width: 250px;
+    height: 20px;
 }
 #city{
     width: 250px;
+    height: 20px;
 }
 #phone{
     width: 250px;
+    height: 20px;
 }
 #estado{
     width: 250px;
+    height: 20px;
 }
 #cep{
     width: 250px;
+    height: 20px;
 }
 #nacionalidade{
     width: 250px;
 }
 #outraFormacao{
     width: 400px;
+    height: 20px;
 }
-#atividades{
+#atividade{
+    width: 220px;
+    height: 20px;
+}
+#tarefa{
     width: 400px;
+    height: 20px;
 }
 #empresa{
-    width: 180px;
+    width: 220px;
+    height: 20px;
 }
 #cargo{
-    width: 180px;
+    width: 220px;
+    height: 20px;
 }
 #periodo{
     width: 50px;
-}
-#atividade{
-    width: 180px;
+    height: 20px;
 }
 #responsabilidade{
-    width: 180px;
+    width: 220px;
+    height: 20px;
+}
+#habiliTecnica{
+    width: 400px;
+    height: 20px;
+}
+#possuiidioma{
+    width: 400px;
+    height: 20px;
 }
 /*----------------------------------------------*/
 /*----------------------------------------------*/
