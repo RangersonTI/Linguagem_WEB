@@ -22,27 +22,41 @@
 .layout{
     padding: 15px;
     border-radius: 5px;
-    background-color: rgba(111, 165, 102, 0.918);
+    background-color: rgba(89, 143, 80, 0.918);
     font-size: 25px;
     font-family: 'Roboto', sans-serif;;
     width: 300px;
-    margin: 0;
+    
 }
 .layout1{
     padding: 15px;
     border-radius: 5px;
-    background-color: rgba(111, 165, 102, 0.918);
+    background-color: rgba(89, 143, 80, 0.918);
     font-size: 25px;
     font-family: 'Roboto',sans-serif;;
     width: 420px;
+    margin-bottom: 5px;
 }
+
 .layout2{
     padding: 15px;
     border-radius: 5px;
-    background-color: rgba(111, 165, 102, 0.918);
+    background-color: rgba(89, 143, 80, 0.918);
     font-size: 25px;
     font-family: 'Roboto',sans-serif;;
-    width: 990px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    width: 810px;
+}
+.layout3{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgba(89, 143, 80, 0.918);
+    font-size: 25px;
+    font-family: 'Roboto',sans-serif;;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    width: 390px;
 }
 #textLayout{
     font-size: 15px;
@@ -54,20 +68,22 @@
 }
 #divJunta{
     display: inline-table;
-    padding-left: 0.3%;
 }
 #divJunta1{
     display: inline-table;
-    padding-left: 0.3%;
+}
+#divJunta2{
+    display: inline-table;
 }
 .ladoalado{
-    display: inline-block;
-    width: 24.95%;
+    display: inline-table;
+    width: 32.9%;
 }
 
 #alinhaBotao{
-    width: 99%;
+    width: 98%;
     text-align:right;
+    padding: 20px;
 }
 #salvarDados{
     width: 130px;
@@ -77,41 +93,59 @@
     border-color: rgb(32, 66, 31) rgb(68, 140, 66) rgb(9, 255, 0);
     background-color: rgb(255, 76, 76);
 }
+.rodape{
+    background-color: rgb(19, 32, 18);
+    padding: 30px;
+    text-align: center;
+    display: grid;
+    margin: 0;
+    bor
+}
+.ajustar{
+    display: inline-table;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;;
+    color: aliceblue;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contatoIF{
+    border-radius: 250px;
+}
 /*------------------------------------------------*/
 /* Dimencionamento das caixas de entrada de dados */
 #name{
-    width: 250px;
+    width: 270px;
     height: 20px;
 }
 #ender{
-    width: 250px;
+    width: 270px;
     height: 20px;
 }
 #city{
-    width: 250px;
+    width: 270px;
     height: 20px;
 }
 #phone{
-    width: 250px;
+    width: 270px;
     height: 20px;
 }
 #estado{
-    width: 250px;
+    width: 270px;
     height: 20px;
 }
 #cep{
-    width: 250px;
+    width: 270px;
     height: 20px;
 }
 #nacionalidade{
-    width: 250px;
+    width: 270px;
+    height: 20px;
 }
 #outraFormacao{
     width: 400px;
-    height: 20px;
-}
-#atividade{
-    width: 220px;
     height: 20px;
 }
 #tarefa{
@@ -119,11 +153,11 @@
     height: 20px;
 }
 #empresa{
-    width: 220px;
+    width: 250px;
     height: 20px;
 }
 #cargo{
-    width: 220px;
+    width: 250px;
     height: 20px;
 }
 #periodo{
@@ -131,15 +165,31 @@
     height: 20px;
 }
 #responsabilidade{
-    width: 220px;
+    width: 250px;
+    height: 20px;
+}
+#atividade{
+    width: 250px;
     height: 20px;
 }
 #habiliTecnica{
-    width: 400px;
+    width: 380px;
     height: 20px;
 }
 #possuiidioma{
+    width: 380px;
+    height: 20px;
+}
+#Comportamento{
     width: 400px;
+    height: 20px;
+}
+#InfoAdicionais{
+    width: 380px;
+    height: 20px;
+}
+#Disponibilidade{
+    width: 380px;
     height: 20px;
 }
 /*----------------------------------------------*/

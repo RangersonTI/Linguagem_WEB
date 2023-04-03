@@ -11,7 +11,7 @@
 <body class="fundo">
     <header class="cabecalho">
         <div>
-            <img src="imagens/logo if.png" width="90px" alt="50">
+            <img src="imagens/logoif.png" width="90px" alt="50">
             INSTITUTO FEDERAL DO TOCANTINS
         </div>
     </header>
@@ -24,7 +24,7 @@
     </div>
     
     <div id="divJunta">
-        <form action="recrutamento" class="layout"><center> Informações pessoais </center><br>
+        <form action="recrutamento" class="layout"><center>Informações pessoais</center><br>
             <div id="textLayout">
                 <label for="name">Nome Completo:</label><br><input type="text" id="name" name="name" width="400px" placeholder="Informe seu nome completo"><br><br>
                 <label for="data">Data de Nascimento:</label><br><input type="datetime-local" id="data" name="data"><br>
@@ -32,7 +32,7 @@
                     <input type="radio" id="genero" name="genero" value="Masculino">Masculino<br>
                     <input type="radio" id="genero" name="genero" value="Feminino">Feminino<br>
                 <br><label for="nacionalidade">Nacionalidade:</label><br><input type="text" id="nacionalidade" name="nacionalidade"><br><br>
-                <label for="ender">Endereço:</label><br><input type="text" id="ender" name="ender"><br><br>
+                <label for="ender">Endereço:</label><br><input type="text" id="ender" name="ender" placeholder="Ex: Av.Paraguaia, 364, Setor Cimba"><br><br>
                 <label for="city">Cidade:</label><br><input type="text" id="city" name="city"><br><br>
                 <label for="estado">Estado:</label><br><input type="text" id="estado" name="estado"><br><br>
                 <label for="cep">CEP:</label><br><input type="text" id="cep" name="cep" placeholder="123456-789"><br><br>
@@ -42,38 +42,46 @@
         <br>
     </div>
 
-    <div id="divJunta">
-        <form action="formacao" class="layout1"><center> Formação Acadêmica </center><br>
-            <div id="textLayout">
-                <input type="radio" id="formAcad" name="formAcad">Tecnico em Informática<br>
-                <input type="radio" id="formAcad" name="formAcad">Técnologo em Análise e Desenvolvimento de Sistemas<br>
-                <br><label for="formacatecnica">Além da formação técnicas profissional ofertada no IFTO, já possui algum outro tipo de curso ? Se sim, qual ?</label>
-                <input type="text" name="outraFormacao" id="outraFormacao">
-            </div>        
-        </form>
-        <br>
-        <form action="experiencias" class="layout1"><center> Experiências profissionais </center>
-            <div id="textLayout">
-                <br><input type="radio" id="naotem" name="naotem">Não possui<br><br>
-                    <div id="possuiExperiencia">
-                        <label for="">Última ou Atual tarefa:</label><br>
-                        <input type="text" name="tarefa" id="tarefa"><br><br>
-                        <label for="cargo">Cargo:</label><br>
-                        <input type="text" id="cargo" name="cargo"><br><br>
-                        <label for="periodo"><u>Período de Atuação</u></label><br>
-                        <label for="inicio">De:</label>
-                        <input type="date" name="inicio" id="inicio">
-                        <label for="fim">Até:</label>
-                        <input type="date" name="fim" id="fim"><br><br>
-                        <label for="atividades">Principais Atividades e Responsabilidades:</label><br>
-                        <input type="text" name="atividades" id="atividades"<br>
-                    </div>
+    <div id="divJunta" >
+        <div class="sep0">
+            <form action="formacao" class="layout1"><center> Formação Acadêmica </center><br>
+                <div id="textLayout">
+                    <input type="radio" id="formAcad" name="formAcad">Tecnico em Informática<br>
+                    <input type="radio" id="formAcad" name="formAcad">Técnologo em Análise e Desenvolvimento de Sistemas<br>
+                    <br><label for="formacatecnica">Além da formação técnicas profissional ofertada no IFTO, já possui algum outro tipo de curso ? Se sim, qual ?</label>
+                    <input type="text" name="outraFormacao" id="outraFormacao" placeholder="Informe apenas se houver">
+                </div>        
+            </form>
+        </div>
+        <div class="sep1">
+            <form action="experiencias" class="layout1"><center> Experiências profissionais </center>
+                <div id="textLayout">
+                    <br><input type="radio" id="naotem" name="naotem">Não possui<br><br>
+                        <div id="possuiExperiencia">
+                            <label for="">Última ou Atual tarefa:</label><br>
+                            <input type="text" name="tarefa" id="tarefa"><br><br>
+                            <label for="cargo">Cargo:</label><br>
+                            <input type="text" id="cargo" name="cargo"><br><br>
+                            <label for="periodo"><u>Período de Atuação</u></label><br>
+                            <label for="inicio">De:</label>
+                            <input type="date" name="inicio" id="inicio">
+                            <label for="fim">Até:</label>
+                            <input type="date" name="fim" id="fim"><br><br>
+                            <label for="atividades">Principais Atividades e Responsabilidades:</label><br>
+                            <input type="text" name="atividades" id="atividades"><br>
+                        </div>
+                </div>
+            </form>
+        </div>
+        
+        <form action="habiComportamental" class="layout1"><center>Habilidades Comportamentais</center>
+            <div id="textLayout"><br>
+                <label for="">Liste três habilidades comportamentais que você considera serem suas principais qualidades profissionais:</label>
+                <input type="text" name="comportamento" id="Comportamento">
             </div>
         </form>
-
-        
-      
     </div>
+
     <div id="divJunta">
         
         <form action="experienciaPRO" class="layout2"><center>Experiências adicionais</center>
@@ -81,48 +89,38 @@
                 <label for="experient">Se você possui mais experiências profissionais, liste-as abaixo(opcional)</label><br><br>
                 <span class="ladoalado"><label for="empresa1">Empresa 1:</label><br></span>
                 <span class="ladoalado"><label for="empresa2">Empresa 2:</label><br></span>
-                <span class="ladoalado"><label for="empresa3">Empresa 3:</label><br></span>
-                <span><label for="empresa4">Empresa 4:</label><br></span>
+                <span><label for="empresa3">Empresa 3:</label><br></span>
                 <span class="ladoalado"><input type="text" name="empresa1" id="empresa" placeholder="Nome da empresa"><br></span>
                 <span class="ladoalado"><input type="text" name="empresa2" id="empresa" placeholder="Nome da empresa"><br></span>
-                <span class="ladoalado"><input type="text" name="empresa3" id="empresa" placeholder="Nome da empresa"><br></span>
-                <span><input type="text" name="empresa4" id="empresa" placeholder="Nome da empresa"><br></span>
+                <span><input type="text" name="empresa3" id="empresa" placeholder="Nome da empresa"><br></span>
                 <span class="ladoalado"><label for="cargo1">Cargo:</label><br></span>
                 <span class="ladoalado"><label for="cargo2">Cargo:</label><br></span>
-                <span class="ladoalado"><label for="cargo3">Cargo:</label><br></span>
-                <span><label for="cargo4">Cargo:</label><br></span>
+                <span><label for="cargo3">Cargo:</label><br></span>
                 <span class="ladoalado"><input type="text" name="cargo1" id="cargo" placeholder="Cargo exercido"><br></span>
                 <span class="ladoalado"><input type="text" name="cargo2" id="cargo" placeholder="Cargo exercido"><br></span>
-                <span class="ladoalado"><input type="text" name="cargo3" id="cargo" placeholder="Cargo exercido"><br></span>
-                <span><input type="text" name="cargo4" id="cargo" placeholder="Cargo exercido"><br></span>
+                <span><input type="text" name="cargo3" id="cargo" placeholder="Cargo exercido"><br></span>
                 <span class="ladoalado"><label for="periodo1">Período:</label><br></span>
                 <span class="ladoalado"><label for="periodo2">Período:</label><br></span>
-                <span class="ladoalado"><label for="periodo3">Período:</label><br></span>
-                <span><label for="periodo4">Período:</label><br></span>
+                <span><label for="periodo3">Período:</label><br></span>
                 <span class="ladoalado"><input type="number" name="periodo1" id="periodo"> meses<br></span>
                 <span class="ladoalado"><input type="number" name="periodo2" id="periodo"> meses<br></span>
-                <span class="ladoalado"><input type="number" name="periodo3" id="periodo"> meses<br></span>
-                <span><input type="number" name="periodo4" id="periodo"> meses<br></span>
+                <span><input type="number" name="periodo3" id="periodo"> meses<br></span>
                 <span class="ladoalado"><label for="atividade1">Atividades:</label><br></span>
                 <span class="ladoalado"><label for="atividade2">Atividades:</label><br></span>
-                <span class="ladoalado"><label for="atividade3">Atividades:</label><br></span>
-                <span><label for="atividade4">Atividades:</label><br></span>
-                <span class="ladoalado"><input type="text" name="atividade2" id="atividade" placeholder="O que fazia durante o cargo"><br></span>
-                <span class="ladoalado"><input type="text" name="atividade3" id="atividade" placeholder="O que fazia durante o cargo"><br></span>
+                <span><label for="atividade3">Atividades:</label><br></span>
                 <span class="ladoalado"><input type="text" name="atividade1" id="atividade" placeholder="O que fazia durante o cargo"><br></span>
-                <span><input type="text" name="atividade4" id="atividade" placeholder="O que fazia durante o cargo"><br></span>
+                <span class="ladoalado"><input type="text" name="atividade2" id="atividade" placeholder="O que fazia durante o cargo"><br></span>
+                <span><input type="text" name="atividade3" id="atividade" placeholder="O que fazia durante o cargo"><br></span>
                 <span class="ladoalado"><label for="responsabilidade1">Responsabilidade:</label><br></span>
                 <span class="ladoalado"><label for="responsabilidade2">Responsabilidade:</label><br></span>
-                <span class="ladoalado"><label for="responsabilidade3">Responsabilidade:</label><br></span>
-                <span><label for="responsabilidade4">Responsabilidade:</label><br></span>
+                <span><label for="responsabilidade3">Responsabilidade:</label><br></span>
                 <span class="ladoalado"><input type="text" name="responsabilidade1" id="responsabilidade"></span>
                 <span class="ladoalado"><input type="text" name="responsabilidade2" id="responsabilidade"></span>
-                <span class="ladoalado"><input type="text" name="responsabilidade3" id="responsabilidade"></span>
-                <span><input type="text" name="responsabilidade4" id="responsabilidade"></span>
+                <span><input type="text" name="responsabilidade3" id="responsabilidade"></span>
             </div>
         </form>
-        <br>
-        <div class="layout1">
+
+        <div class="layout3" id="divJunta2">
             <form action="habilidades"><center>Habilidades Técnicas e Idiomas</center>
                 <div id="textLayout"><br>
                     <label for="habiliTecnica">Informe as suas habilidades <u>técnicas</u> e <u>relevantes</u></label><br>
@@ -132,7 +130,7 @@
                         <input type="radio" name="idioma" id="idioma">Não
                     <div class="idiomaSim"><br>
                             <label for="possuiidioma">Qual língua?</label>
-                            <input type="text" id="possuiidioma" placeholder="Informe aqui o idioma"><br><br>
+                            <input type="text" id="possuiidioma" placeholder="Informe aqui o idioma predominante"><br><br>
                             <label for="nivelIdioma">Nível de proficiência</label><br>
                             <input type="radio" name="nivelIdioma" id="nivelIdioma">Básico
                             <input type="radio" name="nivelIdioma" id="nivelIdioma">Intermediário
@@ -142,11 +140,42 @@
                </div>
             </form>
         </div>
+        <div class="layout3" id="divJunta2">
+            <form action="infoAdd"><center>Informações Adicionais</center>
+                <div id="textLayout"><br>
+                    <label for="infoAdicionais">Pretensão salarial</label><br>
+                    <input type="text" name="infoAdicionais" id="InfoAdicionais" placeholder="Ex: R$ 2.000"><br><br>
+                    <label for="disponibilidade">Disponibilidade para Início</label><br>
+                    <input type="text" name="disponibilidade" id="Disponibilidade" placeholder="Ex: Agosto de 2023">
+                </div>
+            </form>
+        </div>
     </div>
 
     <div id="alinhaBotao">
         <input type="button" id="salvarDados" value="Salvar dados">
     </div>
-    
+
+    <footer class="rodape">
+        <div >
+            <div class="contatos">
+                <a href="http://www.ifto.edu.br/araguaina" target="_blank">
+                    <div class="ajustar"><img src="imagens/if.jpg" width="50px" class="contatoIF"><p>IFTO</p></div>
+                </a>
+                <a href="https://www.instagram.com/ifto.araguaina/" target="_blank">
+                    <div class="ajustar"><img src="imagens/instagram.png" width="50px"><p>Instagram</p></div>
+                </a>
+                <a href="https://www.facebook.com/CampusAraguainaIFTO/" target="_blank">
+                    <div class="ajustar"><img src="imagens/facebook.png" width="50px"><p>Facebook</p></div>
+                </a>
+                <a href="https://www.youtube.com/IFTOCampusAraguaina" target="_blank">
+                    <div class="ajustar"><img src="imagens/youtube.png" width="50px"><p>YouTube</p></div>
+                </a>
+                <a href="https://twitter.com/IFTOoficial" target="_blank">
+                    <div class="ajustar"><img src="imagens/twitter.png" width="50px"><p>Twitter</p></div>
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
