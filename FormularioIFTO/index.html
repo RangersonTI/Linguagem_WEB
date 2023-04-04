@@ -74,7 +74,7 @@
             </form>
         </div>
         
-        <form method="Habili_Comportamental" action="salvar.js" class="layout1"><center>Habilidades Comportamentais</center>
+        <form id="Habili_Comportamental" action="salvar.js" class="layout1"><center>Habilidades Comportamentais</center>
             <div id="textLayout"><br>
                 <label for="">Liste três habilidades comportamentais que você considera serem suas principais qualidades profissionais:</label>
                 <input type="text" name="comportamento" id="Comportamento">
@@ -84,7 +84,7 @@
 
     <div id="divJunta">
         
-        <form method="ExperienciaAdicional" action="salvar.js" class="layout2"><center>Experiências adicionais</center>
+        <form id="ExperienciaAdicional" class="layout2"><center>Experiências adicionais</center>
             <div id="textLayout"><br>
                 <label for="experient">Se você possui mais experiências profissionais, liste-as abaixo(opcional)</label><br><br>
                 <span class="ladoalado"><label for="empresa1">Empresa 1:</label><br></span>
@@ -121,7 +121,7 @@
         </form>
 
         <div class="layout3" id="divJunta2">
-            <form method="Habili_Tecnica" action="salvar.js"><center>Habilidades Técnicas e Idiomas</center>
+            <form class="Habili_Tecnica"><center>Habilidades Técnicas e Idiomas</center>
                 <div id="textLayout"><br>
                     <label for="habiliTecnica">Informe as suas habilidades <u>técnicas</u> e <u>relevantes</u></label><br>
                     <input type="text" name="habiliTecnica" id="habiliTecnica" cols="30" rows="3" placeholder="Ex: softwares, ferramentas, certificações"><br><br>
@@ -141,7 +141,7 @@
             </form>
         </div>
         <div class="layout3" id="divJunta2">
-            <form method="InfoAdicionais" action="salvar.js"><center>Informações Adicionais</center>
+            <form class="InfoAdicionais"><center>Informações Adicionais</center>
                 <div id="textLayout"><br>
                     <label for="infoAdicionais">Pretensão salarial</label><br>
                     <input type="text" name="infoAdicionais" id="InfoAdicionais" placeholder="Ex: R$ 2.000"><br><br>
@@ -155,29 +155,26 @@
     <div id="alinhaBotao">
         <input type="button" id="salvarDados" value="Salvar dados">
     </div>
-
-    <footer >
-        <div class="rodape">
-            <div class="rodapeh">Contatos</div>
-                <div class="contatos"><br>
-                    <a href="http://www.ifto.edu.br/araguaina" target="_blank">
-                        <div class="ajustar"><img src="imagens/if.jpg" width="50px" class="contatoIF"><p>IFTO Araguaína</p></div>
-                    </a>
-                    <a href="https://www.instagram.com/ifto.araguaina/" target="_blank">
-                        <div class="ajustar"><img src="imagens/instagram.png" width="50px"><p>Instagram</p></div>
-                    </a>
-                    <a href="https://www.facebook.com/CampusAraguainaIFTO/" target="_blank">
-                        <div class="ajustar"><img src="imagens/facebook.png" width="50px"><p>Facebook</p></div>
-                    </a>
-                    <a href="https://www.youtube.com/IFTOCampusAraguaina" target="_blank">
-                        <div class="ajustar"><img src="imagens/youtube.png" width="50px"><p>YouTube</p></div>
-                    </a>
-                    <a href="https://twitter.com/IFTOoficial" target="_blank">
-                        <div class="ajustar"><img src="imagens/twitter.png" width="50px"><p>Twitter</p></div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
 </body>
+<footer class="rodape">
+    <div id="rodapeh">Redes Sociais</div>
+        <div class="contatos"><br>
+            <a href="http://www.ifto.edu.br/araguaina" target="_blank">
+                <div class="ajustar"><img src="imagens/if.jpg" width="50px" class="contatoIF"><p>IFTO Araguaína</p></div>
+            </a>
+            <a href="https://www.instagram.com/ifto.araguaina/" target="_blank">
+                <div class="ajustar"><img src="imagens/instagram.png" width="50px"><p>Instagram</p></div>
+            </a>
+            <a href="https://www.facebook.com/CampusAraguainaIFTO/" target="_blank">
+                <div class="ajustar"><img src="imagens/facebook.png" width="50px"><p>Facebook</p></div>
+            </a>
+            <a href="https://www.youtube.com/IFTOCampusAraguaina" target="_blank">
+                <div class="ajustar"><img src="imagens/youtube.png" width="50px"><p>YouTube</p></div>
+            </a>
+            <a href="https://twitter.com/IFTOoficial" target="_blank">
+                <div class="ajustar"><img src="imagens/twitter.png" width="50px"><p>Twitter</p></div>
+            </a>
+        </div>
+    </div>
+</footer>
 </html>

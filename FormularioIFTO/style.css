@@ -98,20 +98,20 @@ header div{
     border-color: rgb(32, 66, 31) rgb(68, 140, 66) rgb(9, 255, 0);
     background-color: rgb(255, 76, 76);
 }
-.rodapeh{
+#rodapeh{
     font-size: 40px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;;
     color: white;
-    text-align: center;
+    
 }
 .rodape{
     background-color: rgb(9, 70, 5);
+    position: absolute;
+    left: 0;
+    right: 0;
     padding: 10px;
     text-align: center;
-    width: 99%;
-    display: grid;
-    margin: 0;
 }
 .ajustar{
     display: inline-table;
