@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 .fundo{
     background-color: rgba(137, 136, 136, 0.457);
+    
 }
 header div{
     font-weight: 500;
@@ -16,6 +17,14 @@ header div{
     border-radius: 10px;
     text-align: left;
 }
+.alinhar{
+    margin-left: 33.33%;
+    background-color: rgba(89, 143, 80, 0.918);
+}
+.alinhar1{
+    margin-left: 33.33%;
+    width: 800px;
+}
 .titulo{
     font-size: 20px;
     text-align: center;
@@ -24,44 +33,19 @@ header div{
 .notaTitulo{
     font-size: 12px;
 }
+.alinhar{
+    align-items: end;
+}
 .layout{
     padding: 15px;
     border-radius: 5px;
     background-color: rgba(89, 143, 80, 0.918);
     font-size: 25px;
+    margin-bottom: 8px;
+    text-align: left;
     font-family: 'Roboto', sans-serif;;
-    width: 300px;
+    width: 500px;
     
-}
-.layout1{
-    padding: 15px;
-    border-radius: 5px;
-    background-color: rgba(89, 143, 80, 0.918);
-    font-size: 25px;
-    font-family: 'Roboto',sans-serif;;
-    width: 420px;
-    margin-bottom: 5px;
-}
-
-.layout2{
-    padding: 15px;
-    border-radius: 5px;
-    background-color: rgba(89, 143, 80, 0.918);
-    font-size: 25px;
-    font-family: 'Roboto',sans-serif;;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    width: 810px;
-}
-.layout3{
-    padding: 15px;
-    border-radius: 5px;
-    background-color: rgba(89, 143, 80, 0.918);
-    font-size: 25px;
-    font-family: 'Roboto',sans-serif;;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    width: 390px;
 }
 #textLayout{
     font-size: 15px;
@@ -71,20 +55,6 @@ header div{
     width: 100%;
     align-items: center;
 }
-#divJunta{
-    display: inline-table;
-}
-#divJunta1{
-    display: inline-table;
-}
-#divJunta2{
-    display: inline-table;
-}
-.ladoalado{
-    display: inline-table;
-    width: 32.9%;
-}
-
 #alinhaBotao{
     width: 98%;
     text-align:right;
