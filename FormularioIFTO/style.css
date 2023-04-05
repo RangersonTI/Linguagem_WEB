@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 .fundo{
-    background-color: rgba(137, 136, 136, 0.457);
-    
+    background-color: rgba(196, 243, 188, 0.918);
 }
 header div{
     font-weight: 500;
@@ -18,11 +17,7 @@ header div{
     text-align: left;
 }
 .alinhar{
-    margin-left: 33.33%;
-    background-color: rgba(89, 143, 80, 0.918);
-}
-.alinhar1{
-    margin-left: 33.33%;
+    margin-left: 33.3%;
     width: 800px;
 }
 .titulo{
